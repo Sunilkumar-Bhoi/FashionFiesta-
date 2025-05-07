@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fashion Trends</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans text-gray-800">
+
+  <!-- Navbar -->
+  <nav class="bg-white shadow-md fixed top-0 w-full z-10">
+    <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-xl font-bold text-pink-500">FashionFiesta</h1>
+      <ul class="hidden md:flex gap-6">
+        <li><a href="#section1" class="hover:text-pink-500">Trendy Styles</a></li>
+        <li><a href="#section2" class="hover:text-pink-500">Street Fashion</a></li>
+      </ul>
+<button class="md:hidden relative w-7 h-7" id="menuBtn">
+  <!-- Hamburger Icon -->
+  <svg id="iconOpen" xmlns="http://www.w3.org/2000/svg"
+    class="absolute inset-0 w-7 h-7 text-gray-700 transition-all duration-300 ease-in-out"
+    fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+      d="M4 6h16M4 12h16M4 18h16" />
+  </svg>
+
+  <!-- Close Icon -->
+  <svg id="iconClose" xmlns="http://www.w3.org/2000/svg"
+    class="absolute inset-0 w-7 h-7 text-gray-700 transition-all duration-300 ease-in-out transform rotate-45 scale-75 opacity-0"
+    fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+      d="M6 18L18 6M6 6l12 12" />
+  </svg>
+</button>
+    </div>
+    <div id="mobileMenu" class="hidden md:hidden px-4 pb-4">
+      <a href="#section1" class="block py-2">Trendy Styles</a>
+      <a href="#section2" class="block py-2">Street Fashion</a>
+    </div>
+  </nav>
+
+  <!-- Section 1: Trendy Styles -->
+  <section id="section1" class="min-h-screen pt-24 bg-pink-50 px-4 py-10">
+    <div class="max-w-5xl mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-4">Latest Trendy Styles</h2>
+      <p class="text-lg mb-6">Explore 2025's hottest fashion picks from modern minimalism to vibrant streetwear.</p>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <img src="/assets /photo-1529139574466-a303027c1d8b.jpeg" class="rounded-xl shadow-lg" alt="Fashion woman">
+        <img src="/assets /photo-1509631179647-0177331693ae.jpeg" class="rounded-xl shadow-lg" alt="Fashion style">
+        <img src="/assets /photo-1601762603339-fd61e28b698a.jpeg" class="rounded-xl shadow-lg" alt="Fashion model">
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 2: Street Fashion -->
+  <section id="section2" class="min-h-screen bg-gray-100 px-4 py-16">
+    <div class="max-w-5xl mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-4">Street Fashion</h2>
+      <p class="text-lg mb-6">From urban essentials to bold expressions, discover outfits that rule the streets.</p>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <img src="/assets /streetFashion/premium_photo-1673829957242-867871e2ddd2.jpeg" class="rounded-xl shadow-lg" alt="Street fashion">
+        <img src="/assets /streetFashion/photo-1611955874253-78c6c3959c41.jpeg" class="rounded-xl shadow-lg" alt="Urban style">
+        <img src="/assets /streetFashion/premium_photo-1681494700976-861938fe0513.jpeg" class="rounded-xl shadow-lg" alt="Casual fashion">
+      </div>
+    </div>
+  </section>
+  
+  <footer class="bg-white border-t mt-12">
+  <div class="max-w-6xl mx-auto px-4 py-8 flex flex-col md:flex-row justify-between items-center text-sm text-gray-600">
+    <p>&copy; 2025 FashionFiesta. All rights reserved.</p>
+    <div class="flex gap-4 mt-4 md:mt-0">
+      <a href="#" class="hover:text-pink-500">Privacy</a>
+      <a href="#" class="hover:text-pink-500">Terms</a>
+      <a href="#" class="hover:text-pink-500">Contact</a>
+    </div>
+  </div>
+</footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>
