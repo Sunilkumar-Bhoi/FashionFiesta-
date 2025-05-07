@@ -4,7 +4,7 @@
 
 A modern fashion showcase website featuring responsive design, interactive elements, and smooth animations.
 
-**Live Demo:** [View Project](#)
+**Live Demo:** [View Project](https://sunilkumar-bhoi.github.io/VirtuNexaInternship-/)
 
 ## Table of Contents 📖
 - [Features](#features-)
